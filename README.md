@@ -1,6 +1,15 @@
 # Arista AP firmware
 AP固件为18版本，带提权漏洞。可设置uboot中断。</br>
-带提权漏洞固件下载地址：*[Arista-AP-firmware](https://github.com/nblky/Arista-AP-firmware)* </br>
+## 固件涵盖AP型号
+- C-200
+- C-230
+- C-250
+- C-260
+- C-330
+- C-360
+- O-235
+- W-318
+
 AP默认账户密码：`config`</br>
 提权命令：`radartool params ;sh; radio 0`</br>
 设置uboot中断（示例中用的`n`）</br>
