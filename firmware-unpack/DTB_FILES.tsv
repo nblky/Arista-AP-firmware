@@ -1,0 +1,13 @@
+model	bytes	path
+C-200	73870	firmware-unpack/C-200/extracted/dtb/qcom-ipq6018-cp01-c3-fit-uImage.fdt_cp01-c3.dtb
+C-230	84201	firmware-unpack/C-230/extracted/dtb/qcom-ipq807x-ac02-fit-uImage.fdt_ac01.dtb
+C-230	83747	firmware-unpack/C-230/extracted/dtb/qcom-ipq807x-ac02-fit-uImage.fdt_ac02.dtb
+C-250	89715	firmware-unpack/C-250/extracted/dtb/qcom-ipq807x-hk01-fit-uImage.fdt_hk01.c2.dtb
+C-250	84459	firmware-unpack/C-250/extracted/dtb/qcom-ipq807x-hk01-fit-uImage.fdt_hk01.dtb
+C-260	89682	firmware-unpack/C-260/extracted/dtb/qcom-ipq807x-hk01-fit-uImage.fdt_hk01.c2.dtb
+C-260	85449	firmware-unpack/C-260/extracted/dtb/qcom-ipq807x-hk01-fit-uImage.fdt_hk01.dtb
+C-330	73176	firmware-unpack/C-330/extracted/dtb/qcom-ipq6018-cp01-c5-fit-uImage.fdt_cp01-c5.dtb
+C-360	85844	firmware-unpack/C-360/extracted/dtb/qcom-ipq807x-hk09-fit-uImage.fdt_hk09.dtb
+O-235	84201	firmware-unpack/O-235/extracted/dtb/qcom-ipq807x-ac02-fit-uImage.fdt_ac01.dtb
+O-235	83747	firmware-unpack/O-235/extracted/dtb/qcom-ipq807x-ac02-fit-uImage.fdt_ac02.dtb
+W-318	76319	firmware-unpack/W-318/extracted/dtb/qcom-ipq6018-cp01-c3-fit-uImage.fdt_cp01-c3.dtb

@@ -1,0 +1,3 @@
+model=W-318
+dtb_files=1
+bdf_related_files=84

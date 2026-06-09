@@ -1,0 +1,48 @@
+Image contains unit addresses @, this will break signing
+FIT description: ARM64 OpenWrt FIT (Flattened Image Tree)
+Created:         Fri Dec 20 15:21:34 2024
+ Image 0 (kernel@1)
+  Description:  ARM64 OpenWrt Linux-4.4
+  Created:      Fri Dec 20 15:21:34 2024
+  Type:         Kernel Image
+  Compression:  gzip compressed
+  Data Size:    4005451 Bytes = 3911.57 KiB = 3.82 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x41080000
+  Entry Point:  0x41080000
+  Hash algo:    crc32
+  Hash value:   98fd42f4
+  Hash algo:    sha1
+  Hash value:   0d16f006df6d20ae601b92f7d4d822599871c830
+ Image 1 (fdt@hk01.c2)
+  Description:  ARM64 OpenWrt qcom-ipq807x-hk01 device tree blob
+  Created:      Fri Dec 20 15:21:34 2024
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    89682 Bytes = 87.58 KiB = 0.09 MiB
+  Architecture: AArch64
+  Hash algo:    crc32
+  Hash value:   a28e671f
+  Hash algo:    sha1
+  Hash value:   0835df5d63a04302e33e24cf4591d47980b2585c
+ Image 2 (fdt@hk01)
+  Description:  ARM64 OpenWrt qcom-ipq807x-hk01 device tree blob
+  Created:      Fri Dec 20 15:21:34 2024
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    85449 Bytes = 83.45 KiB = 0.08 MiB
+  Architecture: AArch64
+  Hash algo:    crc32
+  Hash value:   7ea5351b
+  Hash algo:    sha1
+  Hash value:   bdf6e65a7a017163283f4a0adee8642309305cd3
+ Default Configuration: 'config@hk01'
+ Configuration 0 (config@hk01.c2)
+  Description:  OpenWrt
+  Kernel:       kernel@1
+  FDT:          fdt@hk01.c2
+ Configuration 1 (config@hk01)
+  Description:  OpenWrt
+  Kernel:       kernel@1
+  FDT:          fdt@hk01

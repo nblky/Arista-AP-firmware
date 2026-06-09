@@ -1,0 +1,33 @@
+Image contains unit addresses @, this will break signing
+FIT description: ARM64 OpenWrt FIT (Flattened Image Tree)
+Created:         Fri Dec 20 15:02:56 2024
+ Image 0 (kernel@1)
+  Description:  ARM64 OpenWrt Linux-4.4
+  Created:      Fri Dec 20 15:02:56 2024
+  Type:         Kernel Image
+  Compression:  gzip compressed
+  Data Size:    4116846 Bytes = 4020.36 KiB = 3.93 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x41080000
+  Entry Point:  0x41080000
+  Hash algo:    crc32
+  Hash value:   2303b07c
+  Hash algo:    sha1
+  Hash value:   498b0e92ce4293a93f9093f712d858123820c9a7
+ Image 1 (fdt@cp01-c3)
+  Description:  ARM64 OpenWrt qcom-ipq6018-cp01-c3 device tree blob
+  Created:      Fri Dec 20 15:02:56 2024
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    76319 Bytes = 74.53 KiB = 0.07 MiB
+  Architecture: AArch64
+  Hash algo:    crc32
+  Hash value:   02ab60e7
+  Hash algo:    sha1
+  Hash value:   abe158f52dfb959c932a2a524d3214bfceb0a6df
+ Default Configuration: 'config@cp01-c3'
+ Configuration 0 (config@cp01-c3)
+  Description:  OpenWrt
+  Kernel:       kernel@1
+  FDT:          fdt@cp01-c3

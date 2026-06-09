@@ -1,0 +1,3 @@
+model=C-260
+dtb_files=2
+bdf_related_files=60

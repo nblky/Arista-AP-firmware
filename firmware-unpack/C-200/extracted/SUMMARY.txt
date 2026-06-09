@@ -1,0 +1,3 @@
+model=C-200
+dtb_files=1
+bdf_related_files=45

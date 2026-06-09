@@ -1,0 +1,48 @@
+Image contains unit addresses @, this will break signing
+FIT description: ARM64 OpenWrt FIT (Flattened Image Tree)
+Created:         Fri Dec 20 15:23:52 2024
+ Image 0 (kernel@1)
+  Description:  ARM64 OpenWrt Linux-4.4
+  Created:      Fri Dec 20 15:23:52 2024
+  Type:         Kernel Image
+  Compression:  gzip compressed
+  Data Size:    4005462 Bytes = 3911.58 KiB = 3.82 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x41080000
+  Entry Point:  0x41080000
+  Hash algo:    crc32
+  Hash value:   f45d7e7e
+  Hash algo:    sha1
+  Hash value:   65037e2ee950a9b9700fbf95c160c9ae5836af21
+ Image 1 (fdt@ac01)
+  Description:  ARM64 OpenWrt qcom-ipq807x-ac02 device tree blob
+  Created:      Fri Dec 20 15:23:52 2024
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    84201 Bytes = 82.23 KiB = 0.08 MiB
+  Architecture: AArch64
+  Hash algo:    crc32
+  Hash value:   c9bc9fb3
+  Hash algo:    sha1
+  Hash value:   1f367774f52f4e24745459409e70aef15e51d5f3
+ Image 2 (fdt@ac02)
+  Description:  ARM64 OpenWrt qcom-ipq807x-ac02 device tree blob
+  Created:      Fri Dec 20 15:23:52 2024
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    83747 Bytes = 81.78 KiB = 0.08 MiB
+  Architecture: AArch64
+  Hash algo:    crc32
+  Hash value:   372ce9b5
+  Hash algo:    sha1
+  Hash value:   5c49f97e5b1dfb52defa6bf12755a7bfef2cb1bc
+ Default Configuration: 'config@ac02'
+ Configuration 0 (config@ac01)
+  Description:  OpenWrt
+  Kernel:       kernel@1
+  FDT:          fdt@ac01
+ Configuration 1 (config@ac02)
+  Description:  OpenWrt
+  Kernel:       kernel@1
+  FDT:          fdt@ac02

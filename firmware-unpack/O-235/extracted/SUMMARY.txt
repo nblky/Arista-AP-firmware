@@ -1,0 +1,3 @@
+model=O-235
+dtb_files=2
+bdf_related_files=98
